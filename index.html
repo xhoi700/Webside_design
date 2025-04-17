@@ -5,11 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NEXT Website</title>
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-dN+HFZ+Kzb7rSg2a2WYnl3GPZhA+TgL2PYLaK5t4D1Hqgz0Ix1RCEcOYvmF+aEcs+zPvUJZk8Niw1f7Bbh7H2Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <!--Navbar Section-->
   <nav class="navbar" role="navigation" aria-label="Main Navigation">
     <div class="navbar__container">
-      <a href="/" id="navbar__logo">NEXT</a>
+      <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>  NEXT</a>
       <div class="navbar__toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -23,7 +34,22 @@
       </ul>
     </div>
   </nav>
-
+<!--Hero Section-->
+<div class="main">
+    <div class="main__container">
+      <div class="main__content">
+        <h1>NEXT GENERATION</h1>
+        <h2>TECHNOLOGY</h2>
+        <p>See what makes us different.</p>
+        <button class="main__btn">
+          <a href="/">Get Started</a>
+        </button>
+      </div> 
+      <div class="main__img--container">
+        <img src="images/pic1.svg" alt="pic" id="main__img">
+      </div>
+    </div>
+  </div>  
   <script src="app.js"></script>
 </body>
 </html>
